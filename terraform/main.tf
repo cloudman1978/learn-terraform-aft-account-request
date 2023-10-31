@@ -33,7 +33,7 @@ module "sandbox001" {
   control_tower_parameters = {
     AccountEmail              = "contact+aftadel001@ocbawspractice.com"
     AccountName               = "sandbox-aftadel001"
-    ManagedOrganizationalUnit = "Learn AFT"
+    ManagedOrganizationalUnit = "AFT"
     SSOUserEmail              = "adel.safi.ext@orange.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT001"
