@@ -6,7 +6,7 @@ module "sandbox" {
     AccountName               = "sandbox-aftadel"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "adel.safi.ext@orange.com"
-    SSOUserFirstName          = "Sandbox"
+    SSOUserFirstName          = "Sandbox001"
     SSOUserLastName           = "AFT"
   }
 
@@ -26,16 +26,17 @@ module "sandbox" {
   account_customizations_name = "sandbox"
 }
 
+
 module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "contact+aft@ocbawspractice.com"
-    AccountName               = "sandbox-aft"
+    AccountEmail              = "contact+aftadel001@ocbawspractice.com"
+    AccountName               = "sandbox-aftadel001"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "adel.safi.ext@orange.com"
-    SSOUserFirstName          = "Sandbox2"
-    SSOUserLastName           = "AFT2"
+    SSOUserFirstName          = "Sandbox"
+    SSOUserLastName           = "AFT001"
   }
 
   account_tags = {
